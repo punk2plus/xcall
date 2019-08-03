@@ -1,20 +1,3 @@
-# xcall
-Call X-Callback-URLs From the Command Line. Outputs the `x-success` and `x-error` responses to `stdout`/`stderr`.
-
-## Download
-
-[Click here to download the latest version](https://github.com/lulinglm/xcall/releases/download/1.0.0/xcall.app.zip).
-
-## Usage
-
-```bash
-xcall.app/Contents/MacOS/xcall -url "myapp://x-callback-url/my-action?foo=bar" -activateApp YES
-```
-
-The `url` parameter is required. The optional `activateApp` parameter controls whether the target app is brought to the foreground. If omitted, it is `NO`.
-
-## License
-
 Copyright (c) 2019 lulinglm
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -32,9 +15,4 @@ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
-## Links
-
-xcall is used in node  [ll-node-call-mac](https://github.com/lulinglm/ll-node-call-mac)!
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
