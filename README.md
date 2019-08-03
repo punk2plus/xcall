@@ -5,7 +5,7 @@ Call X-Callback-URLs From the Command Line. Outputs the `x-success` and `x-error
 
 ## Download/下载
 
-[latest](https://github.com/lulinglm/xcall/releases/download/1.0.0/xcall.app.zip)
+ [latest](https://github.com/lulinglm/xcall/releases/download/1.0.0/xcall.app.zip).版本
 
 ## Usage/用法
 
