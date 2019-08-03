@@ -1,11 +1,13 @@
-# xcall
+# xcall/介绍
 Call X-Callback-URLs From the Command Line. Outputs the `x-success` and `x-error` responses to `stdout`/`stderr`.
 
-## Download
+给其他平台提供调用mac app的能力。通过app提供的（X-Callback-URLs）
 
-[Click here to download the latest version](https://github.com/lulinglm/xcall/releases/download/1.0.0/xcall.app.zip).
+## Download/下载
 
-## Usage
+[latest](https://github.com/lulinglm/xcall/releases/download/1.0.0/xcall.app.zip)
+
+## Usage/用法
 
 ```bash
 xcall.app/Contents/MacOS/xcall -url "myapp://x-callback-url/my-action?foo=bar" -activateApp YES
